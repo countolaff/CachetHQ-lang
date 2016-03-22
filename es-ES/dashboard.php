@@ -15,7 +15,7 @@ return [
 
     // Incidents
     'incidents' => [
-        'title'                    => 'Eventos &amp;',
+        'title'                    => 'Eventos',
         'incidents'                => 'Incidentes',
         'logged'                   => '{0} No hay incidentes, buen trabajo. | Usted ha reportado un incidente.|Usted tiene <strong>:count</strong> incidentes reportados .',
         'incident-create-template' => 'Crear plantilla',
@@ -62,7 +62,7 @@ return [
         'logged'       => '{0} No hay planificaciones, buen trabajo.|Has registrado una planificación.|Has registrado <strong>:count</strong> planificaciones.',
         'scheduled_at' => 'Planeado am :timestamp',
         'add'          => [
-            'title'   => 'Añadir Mantenimiento Programado',
+            'title'   => 'Añadir mantenimiento programado',
             'success' => 'Horario añadidó.',
             'failure' => 'Algo salió mal con el complemento de la programación.',
         ],
@@ -84,7 +84,7 @@ return [
         'listed_group'       => 'Agrupados bajo :name',
         'add'                => [
             'title'   => 'Añadir componente',
-            'message' => 'Puede ser un componente.',
+            'message' => 'Deberias crear un componente.',
             'success' => 'Componente creado.',
             'failure' => 'Cuando se crea el componente algo ha salido mal.',
         ],
@@ -161,7 +161,7 @@ return [
         'team'        => 'Equipo',
         'member'      => 'Miembro',
         'profile'     => 'Perfil',
-        'description' => 'Teammitglieder werden die M&ouml;glichkeit haben, Komponente sowie Vorf&auml;lle hinzuzuf&uuml;gen und zu ver&auml;ndern.',
+        'description' => '',
         'add'         => [
             'title'   => 'Agregar nuevo miembro del equipo',
             'success' => 'El miembro del equipo añadió.',
